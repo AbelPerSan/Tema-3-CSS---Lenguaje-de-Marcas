@@ -1,0 +1,14 @@
+.mi-elemento {
+    animation: cambiarColor 2s infinite;
+    height: 100px;
+    width: 100px;
+}
+
+@keyframes cambiarColor {
+    from {
+        background-color: orange;
+    }
+    to {
+        background-color: purple;
+    }
+}

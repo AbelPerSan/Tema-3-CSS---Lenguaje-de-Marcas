@@ -1,0 +1,22 @@
+/*
+.element {
+    box-shadow: 1400px 100px;
+}
+*/
+
+/*
+*/
+
+/*
+.element {
+    box-sizing: 10px 5px;
+}
+*/
+
+.element {
+    /* Sombra exterior que se desplaza hacia la zona inferior-derecha */
+    box-shadow: 10px 10px 5px black;
+
+    /* Sombra interior que se desplaza hacia la zona inferior-derecha */
+     box-shadow: -10px -10px 5px black inset; */
+}

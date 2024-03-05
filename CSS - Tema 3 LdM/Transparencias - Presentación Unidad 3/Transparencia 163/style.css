@@ -1,0 +1,15 @@
+.mi-elemento {
+    animation: rotar 4s;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

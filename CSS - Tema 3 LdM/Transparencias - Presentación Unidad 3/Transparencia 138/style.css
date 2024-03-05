@@ -1,0 +1,40 @@
+.flex-container {
+    width: 350px;
+    height: 150px;
+    padding: 5px;
+    margin: 10px auto;
+    background-color: palevioletred;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-item {
+    display: inherit;
+    flex-basis: 150px;
+    background-color: #324593;
+    margin: 5px;
+}
+
+.flex-container .flex-start {
+    background-color: rgb(54, 32, 193);
+    align-self: flex-end;
+    flex-shrink: 2;
+}
+
+
+/*
+
+ATAJO: Mediante la propiedad flex podremos establecer los valores de las tres propiedades que acabamos de ver 
+para alinear elementos hijos, por lo que: 
+
+.item {
+    /* flex: <flex-grow> <flex-shrink> <flex-basis> *./
+    flex: 1 3 35%;
+
+    /* Equivalente a: *./
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-basis: 35%;
+}
+
+*/

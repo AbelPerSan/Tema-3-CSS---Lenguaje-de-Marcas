@@ -1,0 +1,11 @@
+a[href="www.google.com"] {
+    color: lightsteelblue;
+}
+
+a[href="www.twitter.com"] {
+    color: aquamarine;
+}
+
+a[href="www.github.com"] {
+    color: darkviolet;
+}

@@ -1,0 +1,28 @@
+.amarillo {
+    z-index: 0;
+}
+
+.rojo {
+    z-index: 1;
+    width: 100px;
+    height: 20px;
+    background-color: darkred;
+}
+
+.gris {
+    z-index: 2;
+}
+
+.verde {
+    z-index: 3;
+    position: relative;
+    bottom: 15px;
+    left: 40px;
+    width: 100px;
+    height: 20px;
+    background-color: greenyellow;
+}
+
+.azul {
+    z-index: 100;
+}

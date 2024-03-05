@@ -1,0 +1,22 @@
+.mi-elemento {
+    color: red;
+    height: 200px;
+    width: 200px;
+    animation: cambiarColor 4s infinite;
+    animation-delay: 1s;
+}
+
+@keyframes cambiarColor {
+    0% {
+        background-color: red;
+    }
+    40% {
+        background-color: purple;
+    }
+    80% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: black;
+    }
+}

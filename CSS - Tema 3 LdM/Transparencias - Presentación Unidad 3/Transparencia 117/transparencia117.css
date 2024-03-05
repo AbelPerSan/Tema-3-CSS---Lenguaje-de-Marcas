@@ -1,0 +1,26 @@
+div {
+    /* Ponemos un alto mínimo, por defecto es 0 */
+    min-height: 200px;
+
+    /* Dibujamos un borde para ver límites */
+    border: 2px solid black;
+}
+
+#header, #page #footer {
+    background-color: grey;
+}
+
+#menu, #content {
+    /* Necesario para que los elementos estén en horizontal */
+    display: inline-block;
+}
+
+#menu {
+    background-color: blue;
+    width: 30%;
+}
+
+#content {
+    background-color: lightgrey;
+    width: 70%;
+}

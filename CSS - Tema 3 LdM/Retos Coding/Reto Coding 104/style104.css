@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(240, 169, 48);
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li:hover {
+    background-color: rgb(50, 110, 171);
+}
+
+li:first-child {
+    float: left;
+    margin-right: 100px;
+}
+
+h2 {
+    color: rgb(82, 153, 247);
+}
+
+footer {
+    background-color: rgb(82, 143, 247);
+}
+#about li {
+    width: 35%;
+    height: 5%;
+}
+
+#skills li {
+    background-color: rgb(240, 169, 48);
+    width: 5%;
+    height: 5%;
+}
+
+img {
+    width: 10%;
+}

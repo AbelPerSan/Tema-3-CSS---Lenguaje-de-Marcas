@@ -1,0 +1,5 @@
+button:active {
+    color: orange;
+    background-color: black;
+    font-weight: bold;
+}
